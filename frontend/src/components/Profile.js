@@ -10,7 +10,6 @@ import {
   Button,
   Snackbar,
   Alert,
-  Paper,
   LinearProgress,
 } from '@mui/material';
 import {
@@ -42,7 +41,6 @@ const Profile = () => {
 
         if (response.ok) {
           setIsLoggedIn(true);
-          const data = await response.json();
           
           // Fetch employee count
           const empResponse = await fetch('http://localhost:8080/api/employees', {

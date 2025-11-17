@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, Container, Grid, Card, CardContent, useMediaQuery, Stack } from '@mui/material';
+import { Box, Typography, Button, Container, Grid, Card, useMediaQuery, Stack } from '@mui/material';
 import { Link } from 'react-router-dom';
 import BusinessIcon from '@mui/icons-material/Business';
 import PeopleIcon from '@mui/icons-material/People';

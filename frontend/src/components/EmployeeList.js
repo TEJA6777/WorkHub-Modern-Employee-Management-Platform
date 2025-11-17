@@ -36,7 +36,6 @@ const EmployeeList = () => {
   const [showSnackbar, setShowSnackbar] = useState(false);
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
   const [selectedEmployee, setSelectedEmployee] = useState(null);
-  const isSmallScreen = useMediaQuery(theme => theme.breakpoints.down('md'));
 
   useEffect(() => {
     const token = localStorage.getItem('token');
