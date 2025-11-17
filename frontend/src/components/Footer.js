@@ -1,94 +1,137 @@
 import React from 'react';
-import { Box, Container, Grid, Typography, Link } from '@mui/material';
+import { Box, Container, Grid, Typography, Link, IconButton, Stack, Divider } from '@mui/material';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const Footer = () => {
   return (
-    <Box
-      component="footer"
-      sx={{
-        backgroundColor: '#0d9488',
-        color: 'white',
-        padding: '2rem 0',
-        marginTop: '2rem',
-        boxShadow: 3,
-      }}
-    >
-      <Container maxWidth="lg">
-        <Grid container spacing={4}>
-          {/* About Section */}
-          <Grid item xs={12} md={4}>
-            <Typography variant="h6" sx={{ fontWeight: 600, marginBottom: '1rem' }}>
-              About Us
+    <Box component="footer" sx={{ background: 'linear-gradient(135deg, #0d9488 0%, #0a7066 100%)', color: 'white', padding: '4rem 0 0 0', marginTop: '5rem', position: 'relative', overflow: 'hidden' }}>
+      <Box sx={{ position: 'absolute', top: -100, right: -100, width: '300px', height: '300px', borderRadius: '50%', backgroundColor: 'rgba(255,255,255,0.05)', zIndex: 0 }} />
+      <Box sx={{ position: 'absolute', bottom: -50, left: -50, width: '200px', height: '200px', borderRadius: '50%', backgroundColor: 'rgba(255,255,255,0.05)', zIndex: 0 }} />
+      
+      <Container maxWidth="lg" sx={{ paddingY: '3rem', position: 'relative', zIndex: 1 }}>
+        <Grid container spacing={4} sx={{ mb: 3 }}>
+          {/* Brand Section */}
+          <Grid item xs={12} sm={6} md={2.4}>
+            <Typography variant="h6" sx={{ fontWeight: 800, marginBottom: '1.5rem', fontSize: '1.2rem' }}>
+              ✦ WorkHub
             </Typography>
-            <Typography variant="body2">
-              WorkHub is a comprehensive modern employee management platform that helps you manage your employees and departments with ease. Our mission is to make HR processes seamless and efficient.
+            <Typography variant="body2" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
+              Modern employee management platform designed for the future of HR.
             </Typography>
+            <Stack direction="row" spacing={1} sx={{ mt: 2 }}>
+              <IconButton size="small" sx={{ color: 'white', '&:hover': { backgroundColor: 'rgba(255,255,255,0.1)' } }}>
+                <FacebookIcon fontSize="small" />
+              </IconButton>
+              <IconButton size="small" sx={{ color: 'white', '&:hover': { backgroundColor: 'rgba(255,255,255,0.1)' } }}>
+                <TwitterIcon fontSize="small" />
+              </IconButton>
+              <IconButton size="small" sx={{ color: 'white', '&:hover': { backgroundColor: 'rgba(255,255,255,0.1)' } }}>
+                <LinkedInIcon fontSize="small" />
+              </IconButton>
+              <IconButton size="small" component="a" href="https://github.com/TEJA6777" target="_blank" rel="noopener" sx={{ color: 'white', '&:hover': { backgroundColor: 'rgba(255,255,255,0.1)' } }}>
+                <GitHubIcon fontSize="small" />
+              </IconButton>
+            </Stack>
           </Grid>
 
-          {/* Quick Links Section */}
-          <Grid item xs={12} md={4}>
-            <Typography variant="h6" sx={{ fontWeight: 600, marginBottom: '1rem' }}>
-              Quick Links
+          {/* Product Links */}
+          <Grid item xs={12} sm={6} md={2.4}>
+            <Typography variant="h6" sx={{ fontWeight: 700, marginBottom: '1.5rem', fontSize: '1rem' }}>
+              Product
             </Typography>
-            <Box>
-              <Link href="/" color="inherit" underline="none" sx={{ display: 'block', marginBottom: '0.5rem', '&:hover': { color: '#fbbf24' } }}>
-                Home
-              </Link>
-              <Link href="/dashboard" color="inherit" underline="none" sx={{ display: 'block', marginBottom: '0.5rem', '&:hover': { color: '#fbbf24' } }}>
-                Dashboard
-              </Link>
-              <Link href="/employees" color="inherit" underline="none" sx={{ display: 'block', marginBottom: '0.5rem', '&:hover': { color: '#fbbf24' } }}>
-                Employees
-              </Link>
-              <Link href="/departments" color="inherit" underline="none" sx={{ display: 'block', marginBottom: '0.5rem', '&:hover': { color: '#fbbf24' } }}>
-                Departments
-              </Link>
-              <Link href="/profile" color="inherit" underline="none" sx={{ display: 'block', marginBottom: '0.5rem', '&:hover': { color: '#fbbf24' } }}>
-                Profile
-              </Link>
-              <Link href="/login" color="inherit" underline="none" sx={{ display: 'block', marginBottom: '0.5rem', '&:hover': { color: '#fbbf24' } }}>
-                Login
-              </Link>
-              <Link href="/register" color="inherit" underline="none" sx={{ display: 'block', '&:hover': { color: '#fbbf24' } }}>
-                Register
-              </Link>
-            </Box>
+            <Stack spacing={1}>
+              <Link href="/dashboard" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>Dashboard</Link>
+              <Link href="/employees" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>Employees</Link>
+              <Link href="/departments" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>Departments</Link>
+              <Link href="/profile" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>Profile</Link>
+            </Stack>
           </Grid>
 
-          {/* Contact Information Section */}
-          <Grid item xs={12} md={4}>
-            <Typography variant="h6" sx={{ fontWeight: 600, marginBottom: '1rem' }}>
-              Contact Us
+          {/* Company Links */}
+          <Grid item xs={12} sm={6} md={2.4}>
+            <Typography variant="h6" sx={{ fontWeight: 700, marginBottom: '1.5rem', fontSize: '1rem' }}>
+              Company
             </Typography>
-            <Typography variant="body2">
-              Project Maintainer:{' '}
-              <Link href="https://github.com/TEJA6777" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f57c00' } }}>
-                Kodati Sai Teja
-              </Link>
+            <Stack spacing={1}>
+              <Link href="/" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>Home</Link>
+              <Link href="/about" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>About</Link>
+              <Link href="/features" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>Features</Link>
+              <Link href="/pricing" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>Pricing</Link>
+            </Stack>
+          </Grid>
+
+          {/* Resources Links */}
+          <Grid item xs={12} sm={6} md={2.4}>
+            <Typography variant="h6" sx={{ fontWeight: 700, marginBottom: '1.5rem', fontSize: '1rem' }}>
+              Resources
             </Typography>
-            <Typography variant="body2">
-              Email:{' '}
-              <Link href="mailto:saitejakodati6777@gmail.com" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f57c00' } }}>
-                saitejakodati6777@gmail.com
-              </Link>
+            <Stack spacing={1}>
+              <Link href="/docs" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>Documentation</Link>
+              <Link href="/blog" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>Blog</Link>
+              <Link href="/support" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>Support</Link>
+              <Link href="/faq" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>FAQ</Link>
+            </Stack>
+          </Grid>
+
+          {/* Contact Section */}
+          <Grid item xs={12} sm={6} md={2.4}>
+            <Typography variant="h6" sx={{ fontWeight: 700, marginBottom: '1.5rem', fontSize: '1rem' }}>
+              Contact
             </Typography>
-            <Typography variant="body2">Phone: +1 (123) 456-7890</Typography>
-            <Typography variant="body2" sx={{ marginTop: '0.5rem' }}>
-              Address: 123 Employee St, Suite 100, New York, NY 10001
-            </Typography>
+            <Stack spacing={1.5}>
+              <Stack direction="row" spacing={1} sx={{ alignItems: 'flex-start' }}>
+                <EmailIcon sx={{ fontSize: '1.2rem', mt: 0.5, opacity: 0.8 }} />
+                <Link href="mailto:saitejakodati6777@gmail.com" underline="none" sx={{ color: 'inherit', opacity: 0.8, transition: 'all 0.3s', '&:hover': { opacity: 1, color: '#a7f3d0' }, fontSize: '0.9rem' }}>
+                  saitejakodati6777@gmail.com
+                </Link>
+              </Stack>
+              <Stack direction="row" spacing={1} sx={{ alignItems: 'flex-start' }}>
+                <LocationOnIcon sx={{ fontSize: '1.2rem', mt: 0.5, opacity: 0.8 }} />
+                <Typography variant="body2" sx={{ opacity: 0.8, fontSize: '0.9rem' }}>
+                  Global Platform
+                </Typography>
+              </Stack>
+            </Stack>
           </Grid>
         </Grid>
 
+        <Divider sx={{ backgroundColor: 'rgba(255,255,255,0.2)', my: 2 }} />
+
         {/* Bottom Section */}
-        <Box
-          sx={{
-            textAlign: 'center',
-            borderTop: '1px solid rgba(255, 255, 255, 0.2)',
-            marginTop: '2rem',
-            paddingTop: '1rem',
-          }}
-        >
-          <Typography variant="body2">© {new Date().getFullYear()} WorkHub - Employee Management Platform. All rights reserved.</Typography>
+        <Box sx={{ paddingY: '2rem', textAlign: 'center', backgroundColor: 'rgba(0,0,0,0.1)', borderRadius: '8px', px: 2 }}>
+          <Grid container spacing={2} sx={{ mb: 2 }}>
+            <Grid item xs={12} sm={6} md={3}>
+              <Link href="/privacy" underline="none" sx={{ color: 'inherit', opacity: 0.8, fontSize: '0.85rem', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>
+                Privacy Policy
+              </Link>
+            </Grid>
+            <Grid item xs={12} sm={6} md={3}>
+              <Link href="/terms" underline="none" sx={{ color: 'inherit', opacity: 0.8, fontSize: '0.85rem', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>
+                Terms of Service
+              </Link>
+            </Grid>
+            <Grid item xs={12} sm={6} md={3}>
+              <Link href="/cookies" underline="none" sx={{ color: 'inherit', opacity: 0.8, fontSize: '0.85rem', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>
+                Cookie Policy
+              </Link>
+            </Grid>
+            <Grid item xs={12} sm={6} md={3}>
+              <Link href="/sitemap" underline="none" sx={{ color: 'inherit', opacity: 0.8, fontSize: '0.85rem', '&:hover': { opacity: 1, color: '#a7f3d0' } }}>
+                Sitemap
+              </Link>
+            </Grid>
+          </Grid>
+          <Typography variant="body2" sx={{ opacity: 0.8 }}>
+            © {new Date().getFullYear()} WorkHub - Modern Employee Management Platform. All rights reserved.
+          </Typography>
+          <Typography variant="caption" sx={{ opacity: 0.7, display: 'block', mt: 1 }}>
+            Built by <Link href="https://github.com/TEJA6777" target="_blank" rel="noopener" sx={{ color: 'inherit', textDecoration: 'underline', '&:hover': { color: '#a7f3d0' } }}>Kodati Sai Teja</Link> with ❤️
+          </Typography>
         </Box>
       </Container>
     </Box>
