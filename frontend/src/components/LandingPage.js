@@ -88,7 +88,7 @@ const LandingPage = () => {
               Get Started
             </Button>
             <Button
-              href="https://github.com/hoangsonww/Employee-Management-Fullstack-App"
+              href="https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform"
               target="_blank"
               variant="outlined"
               sx={{

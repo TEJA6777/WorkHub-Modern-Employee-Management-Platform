@@ -29,7 +29,7 @@ Complete guide to deploy the Employee Management Full-Stack Application on Netli
 2. Click "New site from Git"
 3. Select "GitHub"
 4. Authorize Netlify to access your GitHub account
-5. Select repository: `Employee-Management-Fullstack-App`
+5. Select repository: `WorkHub-Modern-Employee-Management-Platform`
 6. Click "Connect repository"
 
 ### Step 2: Configure Build Settings

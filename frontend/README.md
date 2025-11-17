@@ -62,7 +62,7 @@ employee-management-app
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/hoangsonww/Employee-Management-Fullstack-App.git
+git clone https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform.git
 cd Employee-Management/frontend
 ```
 
@@ -156,4 +156,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or issues, please contact [hoangson091104@gmail.com](mailto:hoangson091104@gmail.com).
+For any questions or issues, please contact [teja.kodati@example.com](mailto:teja.kodati@example.com).

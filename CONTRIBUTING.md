@@ -64,8 +64,8 @@ Enhancement suggestions are always welcome. When creating an enhancement suggest
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/TEJA6777/Employee-Management-Fullstack-App.git
-   cd Employee-Management-Fullstack-App/backend
+   git clone https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform.git
+   cd WorkHub-Modern-Employee-Management-Platform/backend
    ```
 
 2. Ensure Java 25 and Maven are installed
@@ -86,7 +86,7 @@ Enhancement suggestions are always welcome. When creating an enhancement suggest
 
 1. Navigate to frontend directory
    ```bash
-   cd Employee-Management-Fullstack-App/frontend
+   cd WorkHub-Modern-Employee-Management-Platform/frontend
    ```
 
 2. Ensure Node.js and npm are installed

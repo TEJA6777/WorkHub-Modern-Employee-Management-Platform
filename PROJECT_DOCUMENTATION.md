@@ -1180,9 +1180,9 @@ See `Jenkinsfile` and `kubernetes/` directory for production setup using Kuberne
 - **cURL Examples:** See API Endpoints section above
 
 ### Documentation Links
-- **GitHub Repository:** https://github.com/TEJA6777/Employee-Management-Fullstack-App
-- **GitHub Issues:** https://github.com/TEJA6777/Employee-Management-Fullstack-App/issues
-- **GitHub Discussions:** https://github.com/TEJA6777/Employee-Management-Fullstack-App/discussions
+- **GitHub Repository:** https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform
+- **GitHub Issues:** https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/issues
+- **GitHub Discussions:** https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/discussions
 - **Contributing Guide:** See `CONTRIBUTING.md`
 - **Code of Conduct:** See `CODE_OF_CONDUCT.md`
 - **License:** MIT License (see `LICENSE` file)

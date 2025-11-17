@@ -666,7 +666,7 @@ public class AuditAspect {
 
 - Security Team Email: security@example.com
 - Emergency Hotline: +1-800-555-SECURITY
-- GitHub Security Advisory: https://github.com/TEJA6777/Employee-Management-Fullstack-App/security/advisories
+- GitHub Security Advisory: https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/security/advisories
 
 ---
 

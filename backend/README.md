@@ -72,7 +72,7 @@ employee-management-app
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/hoangsonww/Employee-Management-Fullstack-App.git
+git clone https://github.com/TEJA6777/Employee-Management-Fullstack-App.git
 cd Employee-Management/backend
 ```
 
@@ -243,6 +243,6 @@ For more information about this project, please refer to the comprehensive [docu
 
 ## Contact
 
-For any questions or issues, please contact [hoangson091104@gmail.com](mailto:hoangson091104@gmail.com).
+For any questions or issues, please contact [teja.kodati@example.com](mailto:teja.kodati@example.com).
 
 ---

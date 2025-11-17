@@ -57,8 +57,8 @@ Common questions and answers about the Employee Management Full-Stack Applicatio
 **A:** Quick start:
 ```bash
 # 1. Clone repository
-git clone https://github.com/TEJA6777/Employee-Management-Fullstack-App.git
-cd Employee-Management-Fullstack-App
+git clone https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform.git
+cd WorkHub-Modern-Employee-Management-Platform
 
 # 2. Using Docker (Recommended)
 docker-compose up -d
@@ -457,7 +457,7 @@ npx openapi-generator-cli generate -i openapi.json -g javascript -o ./api-client
 ### Q36: How do I report a bug?
 
 **A:** Open an issue on GitHub:
-- https://github.com/TEJA6777/Employee-Management-Fullstack-App/issues
+- https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/issues
 - Include error logs
 - Describe steps to reproduce
 - Mention your environment
@@ -514,8 +514,8 @@ npx openapi-generator-cli generate -i openapi.json -g javascript -o ./api-client
 - 🔐 [Security Guide](./SECURITY.md)
 - 🚀 [Deployment Guide](./DEPLOYMENT_GUIDE.md)
 - 📡 [API Reference](./API_REFERENCE.md)
-- 🐛 [GitHub Issues](https://github.com/TEJA6777/Employee-Management-Fullstack-App/issues)
-- ⭐ [GitHub Repository](https://github.com/TEJA6777/Employee-Management-Fullstack-App)
+- 🐛 [GitHub Issues](https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/issues)
+- ⭐ [GitHub Repository](https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform)
 
 ---
 

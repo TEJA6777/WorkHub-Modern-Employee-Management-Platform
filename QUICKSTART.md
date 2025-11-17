@@ -12,8 +12,8 @@ Get up and running with the Employee Management Full-Stack Application in 5 minu
 
 #### 1. Clone Repository
 ```bash
-git clone https://github.com/TEJA6777/Employee-Management-Fullstack-App.git
-cd Employee-Management-Fullstack-App
+git clone https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform.git
+cd WorkHub-Modern-Employee-Management-Platform
 ```
 
 #### 2. Start Services
@@ -58,8 +58,8 @@ docker-compose down
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/TEJA6777/Employee-Management-Fullstack-App.git
-cd Employee-Management-Fullstack-App
+git clone https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform.git
+cd WorkHub-Modern-Employee-Management-Platform
 ```
 
 ### Step 2: Setup Database
@@ -247,7 +247,7 @@ docker-compose up -d
 ## File Structure Overview
 
 ```
-Employee-Management-Fullstack-App/
+WorkHub-Modern-Employee-Management-Platform/
 ├── frontend/              # React application
 │   ├── src/
 │   │   ├── components/   # UI components
@@ -410,8 +410,8 @@ The application includes sample data:
 
 - 📖 **Documentation:** See [README.md](./README.md)
 - 🔍 **API Docs:** http://localhost:8080/swagger-ui.html
-- 🐛 **Issues:** https://github.com/TEJA6777/Employee-Management-Fullstack-App/issues
-- 💬 **Discussions:** https://github.com/TEJA6777/Employee-Management-Fullstack-App/discussions
+- 🐛 **Issues:** https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/issues
+- 💬 **Discussions:** https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/discussions
 - 📧 **Email:** teja.kodati@example.com
 
 ---

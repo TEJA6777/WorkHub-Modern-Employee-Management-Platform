@@ -93,7 +93,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - ✅ Updated all GitHub references from hoangsonww → TEJA6777
 - ✅ Changed author from "Son Nguyen" → "Kodati Sai Teja"
-- ✅ Updated repository URLs to https://github.com/TEJA6777/Employee-Management-Fullstack-App
+- ✅ Updated repository name to WorkHub-Modern-Employee-Management-Platform
+- ✅ Updated repository URLs to https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform
 - ✅ Updated LICENSE copyright to Kodati Sai Teja
 - ✅ Updated pom.xml and package.json author information
 - ✅ Updated all contact information and email addresses
@@ -169,7 +170,7 @@ docker-compose up -d
 
 ## Support & Issues
 
-Found a bug? Please open an [Issue on GitHub](https://github.com/TEJA6777/Employee-Management-Fullstack-App/issues).
+Found a bug? Please open an [Issue on GitHub](https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/issues).
 
 ---
 

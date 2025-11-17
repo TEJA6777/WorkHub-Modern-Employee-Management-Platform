@@ -33,17 +33,18 @@
     "frontend": "cd frontend && npm start",
     "backend": "cd backend && mvn spring-boot:run",
     "dev": "concurrently \"npm run server\" \"npm run frontend\"",
-    "install": "cd frontend && npm install && cd ../backend && mvn install -DskipTests",
+    "install": "cd frontend && npm install",
+    "backend:install": "cd backend && mvn install -DskipTests",
     "format": "prettier --write \"**/*.js\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoangsonww/Employee-Management-Fullstack-App.git",
-    "directory": "Employee-Management-Fullstack-App"
+    "url": "git+https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform.git",
+    "directory": "WorkHub-Modern-Employee-Management-Platform"
   },
   "bugs": {
-    "url": "https://github.com/hoangsonww/Employee-Management-Fullstack-App/issues",
-    "email": "hoangson091104@gmail.com"
+    "url": "https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/issues",
+    "email": "teja.kodati@example.com"
   },
   "keywords": [
     "Employee",
@@ -53,6 +54,6 @@
     "Management",
     "App"
   ],
-  "author": "Son Nguyen",
+  "author": "Kodati Sai Teja",
   "license": "MIT"
 }

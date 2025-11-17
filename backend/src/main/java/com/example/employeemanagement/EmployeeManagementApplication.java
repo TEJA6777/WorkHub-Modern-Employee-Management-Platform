@@ -22,7 +22,7 @@ import org.springframework.context.annotation.Bean;
         description = "API documentation for managing employees and departments",
         contact = @Contact(
             name = "Employee Management System",
-            email = "hoangson091104@gmail.com",
+            email = "teja.kodati@example.com",
             url = "https://employee-management-fullstack-app.vercel.app/"
         ),
         license = @License(
