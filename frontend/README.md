@@ -156,4 +156,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or issues, please contact [teja.kodati@example.com](mailto:teja.kodati@example.com).
+For any questions or issues, please contact [saitejakodati6777@gmail.com](mailto:saitejakodati6777@gmail.com).

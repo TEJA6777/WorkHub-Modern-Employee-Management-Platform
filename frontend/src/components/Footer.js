@@ -68,8 +68,8 @@ const Footer = () => {
             </Typography>
             <Typography variant="body2">
               Email:{' '}
-              <Link href="mailto:teja.kodati@example.com" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f57c00' } }}>
-                teja.kodati@example.com
+              <Link href="mailto:saitejakodati6777@gmail.com" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f57c00' } }}>
+                saitejakodati6777@gmail.com
               </Link>
             </Typography>
             <Typography variant="body2">Phone: +1 (123) 456-7890</Typography>

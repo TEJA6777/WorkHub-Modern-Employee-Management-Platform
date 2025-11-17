@@ -159,7 +159,7 @@ OLD: Son Nguyen
 NEW: Kodati Sai Teja
 
 OLD: hoangson091104@gmail.com
-NEW: teja.kodati@example.com
+NEW: saitejakodati6777@gmail.com
 ```
 
 ### Files Updated
@@ -310,7 +310,7 @@ NEW: teja.kodati@example.com
 ### GitHub
 - 🐛 [Report Issues](https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/issues)
 - ⭐ [Visit Repository](https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform)
-- 📧 Email: teja.kodati@example.com
+- 📧 Email: saitejakodati6777@gmail.com
 
 ---
 

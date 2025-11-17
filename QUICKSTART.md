@@ -412,7 +412,7 @@ The application includes sample data:
 - 🔍 **API Docs:** http://localhost:8080/swagger-ui.html
 - 🐛 **Issues:** https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/issues
 - 💬 **Discussions:** https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/discussions
-- 📧 **Email:** teja.kodati@example.com
+- 📧 **Email:** saitejakodati6777@gmail.com
 
 ---
 

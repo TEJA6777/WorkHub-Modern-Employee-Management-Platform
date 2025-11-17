@@ -25,7 +25,7 @@ If you discover a security issue in our code or infrastructure, please report it
 1. **Email**:
 
    ```text
-   teja.kodati@example.com
+   saitejakodati6777@gmail.com
    ```
 
 2. **PGP Key** (fingerprint):

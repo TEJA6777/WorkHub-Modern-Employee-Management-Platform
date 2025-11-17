@@ -199,7 +199,7 @@
 
 ### Author
 - **GitHub Profile:** https://github.com/TEJA6777
-- **Email:** teja.kodati@example.com
+- **Email:** saitejakodati6777@gmail.com
 
 ### Documentation
 - 📖 All files in this repository (root directory)
@@ -282,6 +282,6 @@ You now have access to comprehensive, production-ready documentation for the Emp
 - **Questions?** Check **[FAQ.md](./FAQ.md)**
 - **Bug report?** Open **[GitHub Issue](https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/issues)**
 - **Want to contribute?** Read **[CONTRIBUTING.md](./CONTRIBUTING.md)**
-- **Security concern?** Email: teja.kodati@example.com
+- **Security concern?** Email: saitejakodati6777@gmail.com
 
 Happy coding! 🚀

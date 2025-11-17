@@ -490,7 +490,7 @@ npx openapi-generator-cli generate -i openapi.json -g javascript -o ./api-client
 **A:** 
 - **Author:** Kodati Sai Teja
 - **GitHub:** https://github.com/TEJA6777
-- **Email:** teja.kodati@example.com
+- **Email:** saitejakodati6777@gmail.com
 
 ### Q40: What's the future roadmap?
 

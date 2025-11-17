@@ -272,7 +272,7 @@ This document provides an overview of all documentation files created for the Em
 ### Personalization ✅
 - ✅ All GitHub references: **TEJA6777**
 - ✅ Author: **Kodati Sai Teja**
-- ✅ Email: **teja.kodati@example.com**
+- ✅ Email: **saitejakodati6777@gmail.com**
 - ✅ Repository: **https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform**
 - ✅ Removed external links (Render.com, old author references)
 

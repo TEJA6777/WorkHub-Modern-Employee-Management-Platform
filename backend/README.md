@@ -243,6 +243,6 @@ For more information about this project, please refer to the comprehensive [docu
 
 ## Contact
 
-For any questions or issues, please contact [teja.kodati@example.com](mailto:teja.kodati@example.com).
+For any questions or issues, please contact [saitejakodati6777@gmail.com](mailto:saitejakodati6777@gmail.com).
 
 ---
